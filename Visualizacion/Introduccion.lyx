@@ -1,0 +1,268 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass report
+\begin_preamble
+\usepackage{appendix}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+
+\emph on
+\color blue
+Introducción
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Introduccion}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+¿Por qué un escrito sobre la Visualización? He sido docente del área de
+ informática por más de 20 años, y a lo largo de los innumerables proyectos
+ que han desarrollado nuestros estudiantes, he notado que tecnológicamente,
+ el uso de herramientas y metodologías es muy satisfactorio, algunos sobresalien
+tes.
+ Sin embargo, cuando se presenta la interfaz gráfica de usuario no resultan
+ atractiva y no explotan la versatilidad que ofrece la web 2.0 para generar
+ resultados orientado a los datos.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El propósito de este documentos es presentar una Introducción al área de
+ Visualización de la Información en la web una de las habilidades que debe
+ tener todo aquel que trabaje con datos e información.
+ Esta área no es solo monopolio de los computistas, con el auge de la redes
+ sociales, las páginas web, los repositorios grandes de datos, colecciones
+ de datos o 
+\emph on
+dataset
+\emph default
+ oficiales publicados por organismos gubernamentales o no-gubernamentales,
+ son una fuente disponibles de datos para explorar y extraer conocimiento.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Los datos públicos representan un recurso extraordinario para informar acerca
+ de políticas públicas, descubrimientos científicos, estrategias de negocios
+ y aspectos de nuestra vida diaria, como los desplazamientos y afinidades
+ políticas o cultulares.
+ Para obtener esta información el usuario debe ser capaz de darle sentido
+ a los datos: descubrir patrones de interés, identificar y corregir errores
+ potenciales.
+ Con herramientas como sistemas de bases de datos y algoritmos analíticos,
+ el análisis requiere juicios humanos contextualizados con respecto al dominio
+ específico de los datos donde se muestra relevante la importancia de las
+ agrupaciones, tendencias y valores atípicos que emergen de esta interacción
+ entre el usuario y la representación de los datos presentada.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Estos repositorios contienen datos provenientes de distintas disciplinas,
+ por tanto la información que generen sus aplicaciones transversalizan áreas
+ de conocimiento.
+ Tanto los usuarios que los construyen estas interacciones como los usuarios
+ finales pueden provenir de distintas áreas del conocimiento.
+ Es por ello que se pretende proponer un documento que sirva como apoyo
+ para un taller sobre la Visualización de Información Interactiva.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Este libro puede ser usado como base de un curso de Visualización de la
+ Información para estudiantes de pregrado del área de Informática, potgrado,
+ Investigadores transmitan los resultados de sus investigaciones de una
+ manera eficiente, y por el público en general.
+ La Visualización de la Información, es una subdisciplina del área de Visualizac
+ión, conjuntamente de Análisis de la Información y la Visualización de la
+ Información Científica.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+La Visualización es un área de investigación activa, tal y como se muestra
+ en Conferencias Internacionales del Instituto de Ingeniería Electrica y
+ Electrónica, 
+\begin_inset CommandInset href
+LatexCommand href
+name "IEEE VIS"
+target "http://ieeevis.org/year/2020/welcome"
+literal "false"
+
+\end_inset
+
+; en la Association for Computing Machinery (Asociación de Maquinaria Computacio
+nal) ACM 
+\begin_inset CommandInset href
+LatexCommand href
+name "SIGGRAPH"
+target "https://www.siggraph.org/tags/visualization/"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El curso gira alrededor del desarrollo de un caso de uso usado como ejemplo
+ para un proyecto de Visualización de la Información.
+ Se eligio como documento de origen los datos públicos del Covid-19 de la
+ República Bolivariana de Venezuela, provenientes de 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://data.humdata.org/
+\end_layout
+
+\end_inset
+
+.
+ Los programas desarrollados en cada capítulo, así como los 
+\emph on
+dataset 
+\emph default
+usados pueden ser descargado en Github.
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+aqui va otro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En el capítulo 1 se presenta una revisión de los aspectos conceptuales de
+ la Visualización, además de una breve reseña histórica acerca de como evolucion
+ó esta disciplina, A partir del capítulo 2, nos adentramos en el proceso
+ de desarrollo del proyecto de visualización.
+ Iniciamos con la Preparación y Análisis de datos, donde.
+ 3.
+ Renderizar la vista inicial 4.
+ Agrega interactividad 5.
+ Refina el estilo 6.
+ Proporcionar contexto y 7.
+ Casos de Usos
+\end_layout
+
+\begin_layout Standard
+En pro de la democratización del uso del software, se usan herramientas
+ orientadas al software libre.
+ Es por ello que se ha escogido como tecnología de desarrollo a HTML, CSS,
+ JavaScript y D3.
+ 
+\end_layout
+
+\end_body
+\end_document

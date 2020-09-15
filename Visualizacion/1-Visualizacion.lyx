@@ -1,0 +1,1624 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass report
+\begin_preamble
+\usepackage{appendix}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman "cmr" "default"
+\font_sans "cmss" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style apacite
+\use_bibtopic true
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\boxbgcolor #91c8c2
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\noindent
+
+\emph on
+\color blue
+Información Visual
+\end_layout
+
+\begin_layout Standard
+Visualización en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "McCormick1987"
+literal "false"
+
+\end_inset
+
+ define la Visualización como 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shaded
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+“La visualización es un método de computación.
+ Transforma lo simbólico en geométrico, lo que permite a los investigadores
+ observar sus simulaciones y cálculos.
+ La visualización ofrece un método para ver lo invisible.
+ Enriquece el proceso de descubrimiento científico y fomenta conocimientos
+ profundos e inesperados ".
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Visualización
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "McCormick1987"
+literal "false"
+
+\end_inset
+
+ define a la Visualización como un término proveniente de la computación.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Transformar lo simbólico en geometría, permitiendo a los investigadores
+ observar sus simulaciones y cálculos
+\begin_inset Quotes frd
+\end_inset
+
+.
+ La visualización abarca tanto el entendimiento como la sintesis de la imagen
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ware2012"
+literal "false"
+
+\end_inset
+
+ sugiere los siguientes propósitos: 
+\end_layout
+
+\begin_layout Itemize
+“La visualización brinda la capacidad de comprender grandes cantidades de
+ datos 
+\end_layout
+
+\begin_layout Itemize
+La visualización permite la percepción de propiedades emergentes que no
+ estaban anticipado 
+\end_layout
+
+\begin_layout Itemize
+La visualización a menudo permite que los problemas con los datos se conviertan
+ inmediatamente aparente 
+\end_layout
+
+\begin_layout Itemize
+La visualización facilita la comprensión tanto de gran escala como de pequeña
+ escala características de los datos 
+\end_layout
+
+\begin_layout Itemize
+La visualización facilita la formación de hipótesis ”.
+ monografia
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Tufte1986"
+literal "false"
+
+\end_inset
+
+, considerado el pionero de la visualización de datos, en su libro argumenta
+ que las pantallas gráficas deberían: 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes fld
+\end_inset
+
+Mostrar los datos 
+\end_layout
+
+\begin_layout Itemize
+Inducir al espectador a pensar en la sustancia más que en la metodología,
+ el diseño gráfico, la tecnología de producción gráfica u otra cosa.
+\end_layout
+
+\begin_layout Itemize
+Evite distorsionar lo que los datos tienen que decir 
+\end_layout
+
+\begin_layout Itemize
+Presenta muchos números en un espacio pequeño 
+\end_layout
+
+\begin_layout Itemize
+Hacer coherentes los grandes conjuntos de datos 
+\end_layout
+
+\begin_layout Itemize
+Anime al ojo a comparar diferentes piezas de datos 
+\end_layout
+
+\begin_layout Itemize
+Revelar los datos en varios niveles, desde una descripción amplia hasta
+ su estructura detallada 
+\end_layout
+
+\begin_layout Itemize
+Servir a un propósito razonablemente claro: descripción, exploración, tabulación
+, o decoración 
+\end_layout
+
+\begin_layout Itemize
+Estar estrechamente integrado con las descripciones estadísticas y verbales
+ de un conjunto de datos 
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+El autor describe en detalle el uso de mapas, series temporales y su combinación
+, lo que él llama narrativas espacio-temporales, así como el uso de visualizacio
+nes para mostrar relaciones entre elementos.
+\end_layout
+
+\begin_layout Subsection*
+Historía de la Visualización
+\end_layout
+
+\begin_layout Standard
+En el libro de 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Friendly2008"
+literal "false"
+
+\end_inset
+
+, el autor presenta una -...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shaded
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Aqui presento la evolución
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Visualización Interactiva
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Manovich2010"
+literal "false"
+
+\end_inset
+
+ dice que la hay diferencia entre la visualización de datos y la visualización
+ de la información provienen del origen y propósito de cada término.
+ El primero trabaja con datos, por lo que el usuario debe ser capaz de,
+ a priori, analizar los datos, descubrir patrones, contextualizar, construir
+ la equivalencia entre esos datos y objetos (puntos, líneas, áreas) y plasmar
+ estos objetos en una gráfica representativa para que pueda ser consumida
+ por terceros.
+ El segundo término proviene del área de diseño de la información, por tanto,
+ dictamina entonces que el objetivo de la visualización de información es
+ descubrir la estructura de un conjunto de datos.
+ Esta estructura no se conoce a priori; una visualización tiene éxito si
+ revela esta estructura.
+ Sin embargo, el uso de computadoras ha terminado de borrar esta falla de
+ origen y las nuevas técnicas de visualización (matriz de diagramas de dispersió
+n, mapas de árbol, etc.), y el lenguaje visual básico de la visualización
+ de la información sigue siendo el mismo que en el siglo XIX: puntos, líneas,
+ rectángulos y otras primitivas.
+ Finalmente, establece que la Visualización de la Información es 
+\begin_inset Quotes fld
+\end_inset
+
+una transformación de datos cuantificados que no son visuales en una representac
+ión visual
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Benoit2019"
+literal "false"
+
+\end_inset
+
+ establecen diferencia entre el concepto de la Visualización de Datos y
+ el Visualización de Información, le atribuye un papel relevante a la interacció
+n donde a partir de una gráfica estática se genere 
+\begin_inset Quotes fld
+\end_inset
+
+...
+ una "visualización de información" bien diseñada
+\begin_inset Quotes frd
+\end_inset
+
+.
+ La Visualización Interactiva es un producto de una conversación interactiva
+ entre el usuario y los datos donde el usuario obtiene hechos, exponer lo
+ inesperado en los datos e interactuar con la visualización, de modo que
+ el espectador realmente comprenda los datos, como si estuviera conversando
+ con ellos.
+ 
+\end_layout
+
+\begin_layout Standard
+¿Cual es el próposito de visualizar la Iinformación?
+\end_layout
+
+\begin_layout Standard
+El propósito de la Visualización de la Información 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Benoit2019"
+literal "false"
+
+\end_inset
+
+ lo establece como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shaded
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+...
+\end_layout
+
+\begin_layout Itemize
+Ser parte de la explicación de un problema.
+\end_layout
+
+\begin_layout Itemize
+Decidir qué hacer, informado por los fundamentos estadísticos de los datos
+ 
+\end_layout
+
+\begin_layout Itemize
+Para responder una pregunta con mayor profundidad 
+\end_layout
+
+\begin_layout Itemize
+Para reducir la cantidad de datos mostrados en fragmentos manejables, pero
+ permitiendo detalles a pedido
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La Visualización de la Información es una actividad que cambia según los
+ requerimiento y el tipo de información que se necesite visualizar y que
+ desafía el intelecto humano: se necesita conocimientos sobre las librerias
+ de visualización y como usarlas; conocer los formatos que usan las primitivas
+ de visualización y la manipulación de los datos originales para adaptarlos
+ a estos formatos 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "wang2019visualization"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsubsection
+¿Como lograr que la visualización desarrollada sea eficiente al usuario?
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Steele2010"
+literal "false"
+
+\end_inset
+
+ envuelven la eficiencia en el concepto de belleza.
+ Un gráfico es bello si es estéticamente agradable, novedoso, informativo
+ y eficiente
+\end_layout
+
+\begin_layout Itemize
+Novedoso.
+ La imagen debe ofrecer alguna novedad: una nueva mirada a los datos o un
+ formato que brinde a los lectores una chispa de entusiasmo y resulte en
+ un nuevo nivel de comprensión.
+ La idea central es diseñar la imagen para ser efectivos: su novedad es
+ un subproducto de revelar efectivamente una nueva visión del mundo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Informativo.
+ Implica que el usuario pueda adquirir conocimientos.
+ la capacidad de transmitir información debe ser el impulsor principal del
+ diseño de un elemento visual.
+ Para que una imagen visual sea eficaz hay que centrarse dos detalles: el
+ mensaje pretendido y el contexto de uso.
+ 
+\end_layout
+
+\begin_layout Itemize
+Eficiente.
+ Una visualización tiene un objetivo claro, un mensaje o una perspectiva
+ particular sobre la información que está diseñada para transmitir.
+ El acceso a esta información debe ser lo más sencillo posible, sin sacrificar
+ la complejidad necesaria y relevante.
+ Una imagen no debe incluir demasiado contenido o información fuera del
+ tema y se debe suprimir los datos irrelevantes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Estético.
+ El uso apropiado de ejes y diseño, forma, colores, líneas y tipografía,
+ es un ingrediente necesario, pero no únicamente suficiente para lograr
+ la belleza.
+ Son elementos esenciales para guiar al lector, comunicar significado, revelar
+ relaciones y resaltar conclusiones, y atraer visualmente.
+ Los aspectos gráficos del diseño deben servir al objetivo de presentar
+ información.
+ El acceso a esta información debe ser lo más sencillo posible, sin sacrificar
+ la complejidad necesaria y relevante.
+ Una imagen no debe incluir demasiado contenido o información fuera del
+ tema.
+ 
+\end_layout
+
+\begin_layout Standard
+Muestran estos conceptos analizando dos gráficas icónicas:
+\end_layout
+
+\begin_layout Paragraph
+La Tabla Periodíca de Mendelev 
+\end_layout
+
+\begin_layout Paragraph
+El mapa de Londres de Beck 
+\end_layout
+
+\begin_layout Enumerate
+La gran mayoría de la visualización de información mundana se realiza en
+ formatos completamente estándar.
+ Los estilos de presentación básicos, como gráficos de barras, de líneas,
+ de dispersión y circulares, diagramas de flujo y organizativos, y algunos
+ otros formatos, son fáciles de generar con todo tipo de software.
+ Estos formatos son ubicuos y proporcionan puntos de partida convenientes
+ y convencionales.
+ Tanto los creadores visuales como los consumidores comprenden razonablemente
+ bien su teoría y su uso.
+ Por estas razones, son buenas y sólidas soluciones para problemas comunes
+ de visualización.
+ Sin embargo, su uso óptimo se limita a algunos tipos de datos muy específicos,
+ y su estandarización y familiaridad significa que rara vez lograrán la
+ novedad.
+\end_layout
+
+\begin_layout Standard
+Las bellas visualizaciones que pasan a la fama y la fortuna son de otra
+ índole.
+ No se originan necesariamente en convenciones conocidas por sus creadores
+ o consumidores (aunque pueden aprovechar algunos elementos visuales o tratamien
+tos familiares) y, por lo general, se desvían de los formatos esperados.
+ Estas imágenes no están restringidas por los límites de los protocolos
+ visuales convencionales: tienen la libertad de adaptarse de manera efectiva
+ a tipos de datos no convencionales y mucho espacio para sorprender y deleitar.
+\end_layout
+
+\begin_layout Standard
+Lo más importante es que las visualizaciones hermosas reflejan las cualidades
+ de los datos que representan, revelando explícitamente propiedades y relaciones
+ inherentes e implícitas en los datos de origen.
+ A medida que estas propiedades y relaciones están disponibles para el lector,
+ aportan nuevos conocimientos, percepción y disfrute.
+ Para ilustrarlo, veamos dos hermosas visualizaciones muy conocidas y cómo
+ adoptan la estructura de sus datos de origen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/TablaPeriodica.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tabla Periodíca de los Elementos.
+ De 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Steele2010"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La tabla periódica de los elementos
+\end_layout
+
+\begin_layout Standard
+El primer ejemplo que consideraremos es la tabla periódica de los elementos
+ de Mendeleev, una visualización magistral que codifica al menos cuatro,
+ y a menudo nueve o más, tipos diferentes de datos en una tabla ordenada
+ (ver Figura 1-1).
+\end_layout
+
+\begin_layout Standard
+Los elementos tienen propiedades que se repiten periódicamente y los elementos
+ están organizados en filas y columnas en la tabla para reflejar la periodicidad
+ de estas propiedades.
+ Ese es el punto clave, así que lo diré de nuevo: la genialidad de la tabla
+ periódica es que está organizada para revelar las propiedades físicas relaciona
+das y repetidas de los elementos.
+ La estructura de la tabla viene dictada directamente por los datos que
+ representa.
+ En consecuencia, la tabla permite un acceso rápido a la comprensión de
+ las propiedades de un elemento dado de un vistazo.
+ Más allá de eso, la tabla también permite predicciones muy precisas de
+ elementos no descubiertos, basados en los vacíos que contiene.
+\end_layout
+
+\begin_layout Standard
+La tabla periódica de los elementos es absolutamente informativa, posiblemente
+ eficiente, y fue un enfoque completamente nuevo para un problema que anteriorme
+nte no había tenido una solución visual exitosa.
+ Por todas estas razones, puede considerarse una de las hermosas visualizaciones
+ anteriores de datos complejos.
+\end_layout
+
+\begin_layout Standard
+Cabe señalar que la eficacia y el éxito de la tabla periódica se lograron
+ con el mínimo absoluto de tratamiento gráfico; de hecho, las primeras versiones
+ eran solo de texto y podían generarse en una máquina de escribir.
+ El tratamiento del diseño gráfico fuerte no es un requisito para la belleza.
+\end_layout
+
+\begin_layout Paragraph
+El mapa del metro de Londres
+\end_layout
+
+\begin_layout Standard
+La segunda visualización hermosa clásica que consideraremos es el mapa de
+ Harry Beck del metro de Londres (también conocido como mapa del metro;
+ consulte la Figura 1-2).
+ El mapa del metro se vio influenciado por las convenciones y los estándares
+ de las imágenes, pero no por los de la cartografía.
+ Beck tenía experiencia en la elaboración de circuitos eléctricos: estaba
+ acostumbrado a dibujar líneas de trazado de circuitos en ángulos de 45
+ ° y 90 °, y trajo esas convenciones al mapa del metro.
+ Eso liberó al mapa de cualquier apego a la representación precisa de la
+ geografía y condujo a un estilo visual abstracto que reflejaba más simplemente
+ las realidades del viaje en metro: una vez que estás en el sistema, lo
+ que más importa es tu relación lógica con el resto del metro.
+ sistema.
+ Otros mapas que muestran con precisión la geografía pueden ayudarlo a determina
+r qué hacer en la superficie, pero mientras está bajo tierra, las únicas
+ características de la superficie a las que se puede acceder son las estaciones
+ de metro.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/MapaMetroLondres.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mapa del Metro de Londres.
+ De 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://mapa-metro.com/mapas/Londres/mapa-metro-londres.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El mapa del metro de Londres destacó la información más relevante y eliminó
+ gran parte de la información irrelevante, haciendo que los datos pertinentes
+ sean más accesibles.
+ Fue ejecutado con un estilo gráfico distintivo y único que se ha vuelto
+ icónico.
+ Es ampliamente reconocido como una obra maestra y es sin duda una hermosa
+ visualización.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Otros mapas del metro y tablas periódicas son imitaciones débiles
+\end_layout
+
+\begin_layout Standard
+Debido al éxito de la tabla periódica y el mapa del metro de Londres, sus
+ formatos a menudo se imitan para las representaciones de otros datos.
+ Hay tablas periódicas de casi todo lo que puedas imaginar: alimentos, bebidas,
+ animales, pasatiempos y, lamentablemente, métodos de visualización.
+ [2] Todos estos pierden el punto.
+ De manera similar, se han utilizado mapas de estilo subterráneo para representa
+r películas de diferentes géneros, [3] relaciones entre empresas de tecnología,
+ [4] cronologías de adquisiciones corporativas, [5] y los sistemas de metro
+ de ciudades distintas de Londres.
+\end_layout
+
+\begin_layout Standard
+De estos ejemplos, el único uso alternativo razonable del último formato
+ es representar el metro en otras ciudades (muchos de estos —Tokio, Moscú,
+ etc.— están bastante bien hechos).
+ Todos los demás usos de estos formatos no logran comprender lo que los
+ hace especiales: sus relaciones auténticas y sus representaciones de los
+ datos de origen.
+ Poner datos no periódicos en una tabla periódica tiene tanto sentido como
+ clasificar los calcetines por número atómico; no hay una razón racional
+ para ello porque la estructura a la que hace referencia no existe.
+ Transmitir datos alternativos en estos formatos clásicos puede ser un ejercicio
+ creativo interesante, pero al hacerlo, se pierde el sentido y el valor
+ de los formatos originales.
+\end_layout
+
+\begin_layout Subsubsection
+¿Cómo logramos la belleza?
+\end_layout
+
+\begin_layout Itemize
+Salir de los formatos predeterminados.
+ 
+\end_layout
+
+\begin_layout Itemize
+Hacer la imagen informativa.
+ 
+\end_layout
+
+\begin_layout Itemize
+Transmitir el mensaje previsto.
+ 
+\end_layout
+
+\begin_layout Itemize
+Establecer el contexto de uso.
+ 
+\end_layout
+
+\begin_layout Itemize
+Hacerlo eficiente
+\end_layout
+
+\begin_layout Itemize
+Destacar visualmente lo que importa 
+\end_layout
+
+\begin_layout Itemize
+Utilizar ejes para transmitir significado y dar información gratuita 
+\end_layout
+
+\begin_layout Itemize
+Cortar los datos por divisiones o conjunto de datos relevantes
+\end_layout
+
+\begin_layout Itemize
+Utilizar las convenciones con cuidado
+\end_layout
+
+\begin_layout Itemize
+Aprovechar la estética 
+\end_layout
+
+\begin_layout Standard
+*****
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Minguillon2016"
+literal "false"
+
+\end_inset
+
+ Introducción a la visualización de datos 1.
+ Pioneros de la visualización Uno de los primeros trabajos en el ámbito
+ de la visualización de datos es The Visual Display of Quantitative Information,
+ escrito por Edward Tufte en 1983.
+ Tufte es profesor de la Universidad de Yale y está considerado como uno
+ de los pioneros de la visualización de datos.
+ Tufte introdujo el uso de diagramas como metodología habitual para la descripci
+ón de datos y su análisis preliminar, como una herramienta más parte de
+ la estadística.
+ Es el inventor del concepto chartjunk (diagrama basura), para criticar
+ el mal uso de las visualizaciones cuando no aportan nada a los datos representa
+dos.
+ En este trabajo, Tufte desgrana una serie de visualizaciones de datos y
+ las relaciona con el tipo de datos que se van a visualizar y el contexto
+ en el cual fueron creadas, y también hace un repaso a algunas visualizaciones
+ históricas, como el gráfico que describe las pérdidas del ejército francés
+ durante la campaña de Napoleón en Rusia (1812-1813), creado por Charles
+ Minard y mostrado en la figura 2.
+ Tufte describe en detalle el uso de mapas, series temporales y su combinación,
+ lo que él llama narrativas espacio-temporales, así como el uso de visualizacion
+es para mostrar relaciones entre elementos.
+ Pero lo más interesante del trabajo de Tufte es el concepto de excelencia,
+ que define como la comunicación de ideas complejas con claridad, precisión
+ y eficiencia.
+ La excelencia es lo que proporciona al usuario de la visualización la mayor
+ cantidad de ideas en el más corto espacio de tiempo mediante el mínimo
+ uso de tinta y en el espacio más pequeño posible.
+ La excelencia es casi siempre multivariada, no depende de una sola variable.
+ Y, finalmente, la excelencia requiere contar la verdad sobre los datos,
+ algo que desafortunadamente parece haberse perdido en muchas visualizaciones
+ de carácter político, en las que se utilizan las visualizaciones como herramien
+ta de manipulación.
+ En este sentido, cualquier persona interesada en ser un «periodista de
+ datos» debería adoptar las ideas de Tufte como principios básicos.
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 11 Introducción a la visualización de datos 2.
+ Antecedentes históricos Aunque hay excelentes introducciones sobre qué
+ es una visualización de datos y el significado del concepto a lo largo
+ de la historia, la lectura recomendada para este apartado es el artículo
+ «A brief history of data visualization», de Michael Friendly, publicado
+ en el año 2006 como un capítulo de un manual de visualización de datos
+ parte de una colección de libros de estadística, lo que da muestra de la
+ importancia de la visualización como herramienta para el análisis de datos.
+ Friendly es un autor muy prolífico en el ámbito de la visualización, impulsor
+ del sitio web DataVis, en el cual se pueden encontrar muchos otros recursos
+ relacionados, incluyendo artículos, libros y software.
+ El artículo de Friendly está estructurado según una línea temporal, que
+ incluye desde las primeras visualizaciones (de hecho, mapas y diagramas)
+ previas al siglo XVII hasta la actualidad (a partir de 1975), donde la
+ tecnología ha hecho posible la creación masiva de visualizaciones.
+ De hecho, una revisión del artículo hoy día seguramente añadiría una nueva
+ sección dedicada al boom que ha tenido la visualización recientemente,
+ por la disponibilidad masiva de datos y la aparición de tecnologías que
+ permiten la creación de visualizaciones de datos dinámicas, con la utilización
+ de la web como medio.
+ Una de las etapas más interesantes destacadas por Friendly es la ocurrida
+ en la segunda mitad del siglo XIX, cuando se desarrollaron muchas técnicas
+ para el análisis estadístico, que eran aplicadas a todos los ámbitos de
+ la planificación social, la industrialización, el comercio y el transporte.
+ Esto provocó la aparición de muchas innovaciones en la visualización de
+ datos, necesarias para poder explicar los datos y fenómenos tan complejos
+ de la sociedad del momento.
+ Un primer paso fue la utilización de elementos 3D proyectados como vía
+ de escape del plano que hasta el momento limitaba las posibilidades, como
+ el ejemplo de la figura 3.
+ Otro fue la combinación de mapas con datos de cada región, de forma que
+ en una misma representación se combinaban datos espaciales con otros temporales.
+ Finalmente, el uso de gráficos para el análisis estadístico (la correlación
+ era un concepto aún en desarrollo) permitió a Francis Galton y otros investigad
+ores avanzar en la formalización de las observaciones realizadas y convertirlas
+ en técnicas estadísticas, como muestra la figura 4.
+ Un resultado de toda esta actividad fue la aparición de atlas estadísticos,
+ es decir, informes de datos recopilados sobre casi todos los aspectos de
+ la vida cotidiana acompañados de gráficos detallados.
+ Friendly destaca la colección «Albums de Statistique Graphique», publicada
+ anualmente por el Gobierno francés entre 1879 y 1897, y que fue discontinuada
+ por su alto coste de producción, así como la realizada por el Gobierno
+ de Estados Unidos entre 1872 y 1874.
+ Michael Friendly Sitio web: http:// www.datavis.ca/
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 12 Introducción a la visualización de datos Figura3.
+ Población de Suecia entre 1750 y 1875, realizada por Luigi Perozzo en 1880.
+ Fuente: datavis.ca Friendly destaca varios elementos que han sido clave
+ en la evolución de lo que actualmente se conoce como visualización de datos.
+ Por una parte, el desarrollo y formalización de herramientas estadísticas
+ para el análisis de datos, y la consiguiente necesidad de representar los
+ resultados obtenidos mediante estas.
+ Por otra parte, la aparición de ordenadores y lenguajes de programación
+ (como Fortran), que permitieron automatizar cálculos y crear las primeras
+ representaciones gráficas para conjuntos de datos con cientos o miles de
+ elementos.
+\end_layout
+
+\begin_layout Standard
+Finalmente, Friendly resume la evolución de la visualización de datos sobre
+ la base de la necesidad de resolver problemas concretos, relacionados con
+ el deseo de visualizar fenómenos y relaciones entre elementos de forma
+ diferente, y esto último es posible gracias al desarrollo de las metodologías
+ (análisis estadístico) y las tecnologías (ordenadores)
+\end_layout
+
+\begin_layout Standard
+Representaciones Visuales
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 14 Introducción a la visualización de datos 3.
+ Representaciones visuales Otra aproximación a la evolución del uso de la
+ imagen a lo largo del tiempo se puede encontrar en el artículo «Visual
+ Representation», de Alan Blackwell, publicado en 2011 como un capítulo
+ de una enciclopedia del ámbito de la interacción persona-ordenador (en
+ inglés human-computer interaction), lo cual no resulta extraño en cuanto
+ los seres humanos son, principalmente, visuales y los ordenadores han evolucion
+ado para maximizar el uso de imágenes como interfaz para facilitar su uso.
+ Este trabajo tiene dos partes bien diferenciadas.
+ En la primera, Blackwell describe mediante el uso de ejemplos los diferentes
+ tipos de elementos que se han usado a lo largo de la historia para la represent
+ación de datos e información, desde los primeros textos hasta el uso de
+ representaciones basadas en iconos para la creación de interfaces de usuario.
+ En la segunda parte, Blackwell presenta una aproximación holística que
+ engloba todos los elementos descritos en la primera, de acuerdo con tres
+ dimensiones complementarias: el tipo de elemento o recurso utilizado, la
+ correspondencia con la realidad representada y su uso en un contexto de
+ diseño de la interacción.
+ Así pues, Blackwell inicia la primera parte mediante la descripción de
+ los elementos que siempre han formado parte del conjunto de herramientas
+ básicas para contar historias, empezando por el texto, el cual se modula
+ mediante el uso de estructuras sencillas (párrafos, columnas y tablas en
+ páginas) y sus propiedades (alineación, indentación, bordes y sombreados),
+ junto con la elección de una tipografía adecuada (tamaño, familia y color).
+ El concepto de texto es muy amplio, e incluye obviamente el uso de dígitos
+ y otros símbolos propios de otros sistemas de representación, como por
+ ejemplo el uso de letras griegas en el caso de ecuaciones y fórmulas matemática
+s o la notación musical, un lenguaje en sí mismo fuertemente visual.
+ El siguiente elemento destacado por Blackwell son los mapas y diagramas,
+ que son una evolución del concepto de símbolo, ya que permiten concentrar
+ mayor cantidad de información y establecer relaciones entre los elementos
+ que los componen, modificando parámetros como su posición y tamaño, por
+ ejemplo.
+ En el caso concreto de los mapas, usados desde tiempos ancestrales, el
+ objetivo habitual es representar la realidad (una región de nuestro mundo
+ 3D) mediante un conjunto de símbolos y etiquetas, que representan y describen
+ los elementos que se desea destacar, como por ejemplo el mapa de Juan de
+ la Cosa, creado justo después del descubrimiento de América, mostrado en
+ la figura 5.
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 15 Introducción a la visualización de datos Figura5.
+ Mapamundi de Juan de la Cosa, hacia 1500, el primer mapa que representa
+ el nuevo y recién descubierto continente, América.
+ Fuente: Wikipedia Por su parte, los diagramas son representaciones esquemáticas
+ de un elemento complejo, con el objetivo de simplificar su entendimiento,
+ que se focalizan en aquellos aspectos que determinan su naturaleza, habitualmen
+te con un conjunto de símbolos propio.
+ Un ejemplo son los esquemas usados para la representación de circuitos
+ electrónicos, como el mostrado en la figura 6.
+ En los diagramas el tamaño y distancia relativos de los elementos que los
+ componen no son tan importantes como en un mapa, dado que se está haciendo
+ una abstracción de la realidad, eliminando detalles innecesarios.
+ Figura6.
+ Diagrama de circuito de un contador TTL de 4 bits.
+ Fuente: Wikipedia Un tipo especial de diagramas son aquellos que hacen
+ énfasis en las relaciones entre los elementos que lo componen, de forma
+ que la posición exacta pierde fuerza con respecto al orden o proximidad
+ entre los elementos.
+ Un ejemplo característico son los diagramas usados para la representación
+ de las redes de transporte (especialmente el metro, como el mostrado en
+ la figura 7), en los que la posición absoluta de los elementos no importa,
+ y es la posición relativa (entre dichos elementos) la que aporta información.
+ No son un mapa por lo que respecta a precisión, pero sirven igualmente
+ de orientación.
+ Los diagramas
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 16 Introducción a la visualización de datos suelen
+ representar estructuras tipo árbol o grafo, las cuales permiten describir
+ relaciones (en algunos casos jerárquicas) entre elementos.
+ Blackwell menciona la dificultad que puede comportar para algunos usuarios
+ entender este tipo de visualización, especialmente si no se relativiza
+ el concepto de distancia entre elementos.
+ Figura7
+\end_layout
+
+\begin_layout Standard
+Diagrama de la red de transporte subterráneo de New York.
+ Fuente: Wikipedia El siguiente paso que describe Blackwell es no representar
+ la realidad mediante un esquema, sino hacerlo directamente mediante una
+ imagen, ya sea natural o sintética, de forma que sea posible hacerse una
+ idea fidedigna del elemento representado.
+ Por natural se entiende una imagen que reproduce un fragmento de la realidad
+ («analógica»), mientras que por sintética se entiende una imagen que ha
+ sido generada mediante un algoritmo o proceso («digital»).
+ En el primer caso las imágenes se capturan mediante la tecnología existente,
+ ya sea la pintura o la fotografía.
+ En el segundo, se trata de imágenes generadas por ordenador, como las presentes
+ en un videojuego o el resultado de un algoritmo.
+ No obstante, la sofisticación de los gráficos generados por ordenador y
+ su popularización en el mundo audiovisual han causado la difuminación de
+ las barreras entre ambos tipos, por lo que en algunos casos es difícil
+ determinar qué es real y qué no en una imagen.
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 17 Introducción a la visualización de datos El uso
+ de imágenes para representar la realidad ha evolucionado también en lo
+ que se conoce como iconos, es decir, símbolos que representan esquemáticamente
+ un elemento de la realidad cotidiana, suplantándola y simplificándola,
+ haciéndola fácilmente reconocible.
+ Un ejemplo son los logos de las marcas comerciales, que sustituyen al propio
+ nombre de la marca, como en el caso de Nike, cuyo logo (llamado Swoosh)
+ es reconocido sin necesidad de texto alguno.
+ En otro sentido, las interfaces de usuario actuales son un compendio de
+ iconos que representan acciones (servicios) y/o contenidos (recursos),
+ de acuerdo con ciertos criterios.
+ Esto surge del concepto de metáfora visual, que fue explotado inicialmente
+ por los investigadores de Xerox PARC, en Palo Alto (California), para el
+ desarrollo de interfaces de usuario visuales, en un contexto en el que
+ los ordenadores personales se usaban y programaban mediante una línea de
+ comandos.
+ Estas interfaces, basadas en el uso de iconos que representan elementos
+ típicos de un entorno de trabajo o de una oficina, permitían un uso más
+ sencillo al reducir la cantidad de texto que se tenía que leer y escribir
+ (es decir, los comandos usados para las operaciones básicas).
+ La metáfora de escritorio, desarrollada por Alan Kay en 1970, convierte
+ la pantalla del ordenador en un espacio virtual que asemeja o reproduce
+ un entorno de trabajo físico habitual, Apple fue la que lo popularizó en
+ 1984 con la interfaz de usuario del Apple Macintosh, mostrada en la figura
+ 8.
+ Figura8.
+ Escritorio del Apple Macintosh en 1984.
+ Fuente: Wikipedia Finalmente, Blackwell se basa en la tesis doctoral de
+ Yuri Engelhardt para clasificar todos estos elementos según tres dimensiones:
+ el tipo de recurso gráfico utilizado, su correspondencia con algún concepto
+ del mundo real que desea ser representado y su utilización como parte del
+ diseño que determina la visualización.
+ Los elementos se agrupan en cuatro categorías: • Marcas: son los atributos
+ de más bajo nivel, incluyendo forma, orientación, tamaño, textura, saturación,
+ color y tipo de línea.
+ En este caso, la correspondencia con el concepto representado puede ser
+ literal (una imitación de alguna de las características físicas), un mapeo
+ a una escala relativa o convencional (arbitraria).
+ Los usos de este tipo de recursos son marcar Yuri Engelhardt Sitio web:
+ http:// datagood.org/ Twitter: @YuriEngelhardt
+\end_layout
+
+\begin_layout Standard
+CC-BY-SA • PID_00243142 18 Introducción a la visualización de datos la posición,
+ identificar categorías (mediante formas, texturas y colores), e indicar
+ dirección y magnitud, mediante el uso de símbolos y códigos de color sencillos.
+ • Símbolos: incluye elementos geométricos, texto, logos e iconos, elementos
+ pictóricos y elementos de conectividad.
+ La correspondencia puede ser topológica (enlazando elementos), descriptiva
+ (usando convencionalismos pictóricos), figurativa (mediante metonimia o
+ bromas visuales), connotativa (asociada a aspectos culturales o profesionales)
+ o adquirida (en el caso de alfabetos especializados).
+ Se usan para la representación de textos y el cálculo simbólico, diagramas,
+ marcas o logos, retórica visual y la definición de regiones.
+ • Regiones: este concepto incluye rejillas para alinear elementos, bordes,
+ marcos, rellenos, el uso del espacio en blanco y la idea de integración
+ de la Gestalt para dar más valor al todo que a las partes que lo componen.
+ Así, se pueden crear contenedores para elementos de más bajo nivel, separarlos,
+ encuadrarlos (en un sentido fotográfico, integrándolos en una composición)
+ y crear capas.
+ Los usos son identificar una pertenencia compartida a un cierto conjunto
+ o categoría, la separación de elementos diferentes en paneles o bien la
+ colocación de etiquetas, subtítulos o leyendas.
+ • Superficies: es la generalización de más alto nivel, e incluye los objetos
+ físicos (3D) donde se mapea (superpone) el elemento gráfico.
+ En este caso, la correspondencia puede ser literal (como en un mapa), euclídea
+ (respetando escalas y ángulos), métrica (según unos ejes cuantitativos),
+ yuxtapuesta u ordenada (en regiones y/o categorías), esquemática o bien
+ situada en un contexto.
+ En este nivel, los usos son los habituales en la visualización de datos:
+ la creación de diseños tipográficos, gráficos y diagramas, incluyendo los
+ relacionales, interfaces visuales, etc.
+ Con esta clasificación, Blackwell proporciona unos criterios básicos para
+ el análisis de cualquier representación visual, indicando qué elementos
+ deben identificarse y cuál es su significado, siguiendo el orden propuesto.
+ Un ejemplo indicado por el autor es una partitura (mostrada en la figura
+ 9), la cual parte de unas formas básicas (líneas, círculos…) y una disposición
+ (el pentagrama) para representar algo tan complejo como una sinfonía.
+ Existe un orden determinado por la lectura del pentagrama, de izquierda
+ a derecha y de arriba a abajo, incluyendo múltiples capas (p.
+ ej.
+ las anotaciones que realiza el director o autor sobre la obra).
+\end_layout
+
+\begin_layout Standard
+******
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ware2012"
+literal "false"
+
+\end_inset
+
+ Etapas de visualización El proceso de visualización de datos incluye cuatro
+ etapas básicas, combinadas en una serie de circuitos de retroalimentacion.
+ Estos se ilustran en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ProcesoVisualizacion"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Las cuatro etapas consisten en: 
+\end_layout
+
+\begin_layout Itemize
+La recopilación y almacenamiento de datos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Una etapa de preprocesamiento diseñada para transformar los datos en algo
+ que sea más fácil de manipular.
+ Por lo general, hay alguna forma de reducción de datos para revelar aspectos
+ seleccionados.
+ La exploración de datos es el proceso de cambiar el subconjunto que se
+ siendo visto actualmente.
+ 
+\end_layout
+
+\begin_layout Itemize
+Mapeo de los datos seleccionados a una representación visual, que se logra
+ a través de algoritmos informáticos que producen una imagen en la pantalla.
+ Entrada del usuario puede transformar las asignaciones, resaltar subconjuntos
+ o transformar la vista.
+ Generalmente esto se hace en la propia computadora del usuario.
+ 
+\end_layout
+
+\begin_layout Itemize
+El sistema cognitivo y perceptivo humano (el perceptor).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Maru/Documents/Visualizacion/Figuras/Ware-ProcesoVisualizacion.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+El Proceso de Visualización.
+ Tomado de 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ware2012"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "ProcesoVisualizacion"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Análisis Visual 
+\end_layout
+
+\begin_layout Standard
+El análisis visual ..Junto con los sistemas de gestión de datos y algoritmos
+ estadísticos, el análisis requiere juicios humanos contextualizados con
+ respecto al dominio específico importancia de los grupos, tendencias y
+ valores atípicos descubiertos en los datos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Shneiderman1996"
+literal "false"
+
+\end_inset
+
+ presenta lo que el autor ha llamado como un punto de partida para tratar
+ para las interacciones entre usuarios con gráficas avanzadas adoptando
+ un mantra de búsqueda de información visual: descripción general primero,
+ zoom y filtro, luego detalles bajo demanda.
+ Un punto de partida para tratar de comprender el conjunto rico y variado
+ de visualizaciones de información que tienen propuesto en los últimos años.
+ El documento ofrece una tarea por taxonomía de tipos de datos con siete
+ tipos de datos (uno, dos, tres dimensiones, temporal y multidimensional,
+ árboles y red) y siete tipos de tareas (descripción general, Zoom, filtro,
+ detalles bajo demanda, relacionar, historial y extractos)
+\end_layout
+
+\begin_layout Standard
+*****
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Heer2012"
+literal "false"
+
+\end_inset
+
+ presentó una taxonomía para herramientas que dan soporte a la visualización.
+ La Taxonomía clasifica a las herramientas por doce tipos de tareas agrupadas
+ en tres categoría de más alto nivel.
+\end_layout
+
+\begin_layout Enumerate
+Especificaciones de Vistas y datos (visualizar, filtrar, ordenar y derivar);
+ 
+\end_layout
+
+\begin_layout Enumerate
+Manipulación de Vistas (seleccionar, navegar, coordinar y organizar); y
+ 
+\end_layout
+
+\begin_layout Enumerate
+Origen y proceso de análisis (registrar, anotar, compartir y guía).
+ 
+\end_layout
+
+\begin_layout Standard
+Estas categorías incorporan las tareas críticas que permiten el análisis
+ visual iterativo, incluyendo creación de visualización, consultas interactivas,
+ coordinación de vistas múltiples, historial y colaboración.
+ 
+\end_layout
+
+\begin_layout Section
+Tecnología de Desarrollo
+\end_layout
+
+\begin_layout Subsection
+HTML y CSS
+\end_layout
+
+\begin_layout Subsubsection
+HTML
+\end_layout
+
+\begin_layout Standard
+Es un lenguaje de marcado de hipertexto (HTML, 
+\emph on
+HyperText Markup Language
+\emph default
+) estándar a cargo del consorcio W3HTML, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.w3.org/html/
+\end_layout
+
+\end_inset
+
+,es el lenguaje de marcado principal de la World Wide Web.
+ Originalmente, HTML fue diseñado principalmente como un lenguaje para describir
+ semánticamente documentos científicos 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Berner-Lee1994"
+literal "false"
+
+\end_inset
+
+.
+ Su diseño general ha permitido adaptarlo, durante los años siguientes,
+ para describir otros tipos de documentos e incluso aplicaciones.
+\end_layout
+
+\begin_layout Standard
+Puede ser asistido por tecnologías tales como hojas de estilo en cascada
+ (CSS) y lenguajes de scripting como JavaScript.
+\end_layout
+
+\begin_layout Standard
+Los navegadores web reciben documentos HTML desde un servidor web o desde
+ el almacenamiento local y convierten los documentos en páginas web multimedia.
+ HTML describe la estructura de una página web de forma semántica.
+ Los elementos HTML son los componentes básicos de las páginas HTML.
+ 
+\end_layout
+
+\begin_layout Standard
+HTML proporciona un medio para crear documentos estructurados al denotar
+ semántica estructural para texto como encabezados, párrafos, listas, enlaces,
+ citas y otros elementos.
+ Los elementos HTML están delimitados por etiquetas, escritas con paréntesis
+ angulares.
+ Las etiquetas introducen contenido directamente en la página.
+ Los navegadores usan las etiquetas para interpretar el contenido de la
+ página.
+\end_layout
+
+\begin_layout Standard
+HTML puede incrustar programas escritos en un lenguaje de programación como
+ JavaScript, lo que afecta el comportamiento y el contenido de las páginas
+ web.
+ La inclusión de CSS define la apariencia y el diseño del contenido.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+CSS
+\end_layout
+
+\begin_layout Standard
+Hojas de estilo en cascada (CSS, Cascading Style Sheets) es un lenguaje
+ que se utiliza para describir la presentación de un documento escrito en
+ un lenguaje de marcado como HTML, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "HakonWiumLie2005,Meyer2000"
+literal "false"
+
+\end_inset
+
+; forma parte de las especificación llevadas por el 
+\emph on
+World Wide Web Consortium
+\emph default
+ (W3C) 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.w3.org/standards/webdesign/htmlcss
+\end_layout
+
+\end_inset
+
+, y una tecnología fundamental de la World Wide Web, junto con HTML y JavaScript.
+ 
+\end_layout
+
+\begin_layout Standard
+CSS está diseñado para permitir la separación de la presentación y el contenido,
+ incluido el diseño, los colores y las fuentes.
+ Esta separación puede mejorar la accesibilidad del contenido, proporcionar
+ más flexibilidad y control en la especificación de las características
+ de la presentación, permitir que varias páginas web compartan el formato
+ especificando el CSS relevante en un archivo .css separado, lo que reduce
+ la complejidad y la repetición en el contenido estructural, además de habilitar
+ el archivo .css se almacenará en 
+\emph on
+caché
+\emph default
+ para mejorar la velocidad de carga de la página entre las páginas que comparten
+ el archivo y su formato.
+\end_layout
+
+\begin_layout Standard
+La separación de formato y contenido también hace que sea factible presentar
+ la misma página de marcado en diferentes estilos para diferentes métodos
+ de representación, como en pantalla, en forma impresa, por voz (a través
+ de un navegador o lector de pantalla basado en voz) y en Braille.
+ dispositivos táctiles.
+ 
+\end_layout
+
+\begin_layout Standard
+El nombre en cascada proviene del esquema de prioridad especificado para
+ determinar qué regla de estilo se aplica si más de una regla coincide con
+ un elemento en particular.
+ Este esquema de prioridad en cascada es predecible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shaded
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Tutoriales
+\end_layout
+
+\begin_layout Plain Layout
+HTML en 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.w3schools.com/html/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+CSS en 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.w3schools.com/css/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+D3 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bostock2011"
+literal "false"
+
+\end_inset
+
+ pres
+\end_layout
+
+\begin_layout Subsection
+Ambiente de Desarrollo
+\end_layout
+
+\begin_layout Section*
+
+\lang english
+Referencias
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{References}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "Bibliografia/Visualizacion"
+options "kluwer"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subappendices}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{subappendices}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
